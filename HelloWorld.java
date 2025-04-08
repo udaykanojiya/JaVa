@@ -87,5 +87,8 @@ public class HelloWorld {
     
         scanner.close();
 
+        int v = 7;
+        System.out.println(v);
+
     }
 }
