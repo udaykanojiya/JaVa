@@ -10,8 +10,14 @@ public class stream {
        list.add(9);
        list.add(2);
 
-       ArrayList<Integer> data = (ArrayList<Integer>) list.stream().map(a->a*5).collect(Collectors.toList());
-       System.out.println(data);
+       ArrayList<Integer> data = (ArrayList<Integer>) list.stream().filter(a->a>2).map(a->a*5).collect(Collectors.toList());
+       ArrayList<Integer> even = (ArrayList<Integer>) list.stream().filter(a->a%2==0).collect(Collectors.toList());
+        int sum = list.stream().reduce(0, (a,b)->a+b);
+        int rum = list.stream().reduce(0, (a,b)->a>b?a:b);
+
+        System.out.println(sum);
+        System.out.println(rum);
+       System.out.println(even.size());
 
     }
 }
