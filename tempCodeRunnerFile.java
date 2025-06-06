@@ -1,9 +1,7 @@
-public class thread3 {
-    public static void main(String[] args) {
-        Runnable r = new Runnable(){
-            public void run(){
-                System.out.println("Runnable using Anonymous Class");
-            }
-        };
-    }
-}
+Collections.sort(list, new Comparator<String>() {
+        //     public int compare (String a, String b){
+        //         return a.compareTo(b);
+        //     }
+            
+        // });
+        // System.out.println(list);
