@@ -32,13 +32,18 @@ class Account {
 
 
     try{
-            File file = new File("new.txt");
-            if(file.createNewFile()){
+            File file = new File("info.txt");
+            // if(file.createNewFile()){
               FileWriter writer = new FileWriter("info.txt");
+              writer.write("Name:"+ name+"\n");
+              writer.write("Account No.:"+accountNumber+"\n");
+              writer.write("Balance:"+balance+"\n");
+              writer.close();
                 // System.out.println("File created: "+ file.getName());
-            }else{
-                System.out.println("File already exist.");
-            }
+            // }
+            // else{
+            //     System.out.println("File already exist.");
+            // }
 
         }catch(IOException e){
             System.out.println("An error occurred.");
