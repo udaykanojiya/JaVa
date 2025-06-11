@@ -34,7 +34,7 @@ class Account {
     try{
             File file = new File("new.txt");
             if(file.createNewFile()){
-              FileWriter writer = new FileWriter("info.txt")
+              FileWriter writer = new FileWriter("info.txt");
                 // System.out.println("File created: "+ file.getName());
             }else{
                 System.out.println("File already exist.");
