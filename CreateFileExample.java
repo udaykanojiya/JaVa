@@ -18,12 +18,8 @@ public class CreateFileExample {
             System.out.println("An error occurred.");
             e.printStackTrace();
         }
-    }
-}
 
-class WriteToFile{
-    public static void main(String[] args) {
-        try{
+         try{
             FileWriter writer = new FileWriter("new.txt");
             writer.write("Hello, this is a test message written.");
             writer.close();
@@ -34,19 +30,36 @@ class WriteToFile{
     }
 }
 
-class ReadFromFile{
-    public static void main(String[] args) {
-        try{
-            File file = new File("example.txt");
-            Scanner scanner = new Scanner(file);
-            while(scanner.hasNextLine()){
-                String data = scanner.nextLine();
-                System.out.println(data);
-            }
-            scanner.close();
-        }catch(FileNotFoundException e){
-            System.out.println("An error occured.");
-            e.printStackTrace();
-        }
-    }
-}
+// public class WriteToFile{
+//     public static void main(String[] args) {
+       
+//     }
+// }
+
+// class ReadFromFile{
+//     public static void main(String[] args) {
+//         try{
+//             File file = new File("example.txt");
+//             Scanner scanner = new Scanner(file);
+//             while(scanner.hasNextLine()){
+//                 String data = scanner.nextLine();
+//                 System.out.println(data);
+//             }
+//             scanner.close();
+//         }catch(FileNotFoundException e){
+//             System.out.println("An error occured.");
+//             e.printStackTrace();
+//         }
+//     }
+// }
+
+//  class DeleteFile{
+//     public static void main(String[] args) {
+//         File file = new File("example.txt");
+//         if(file.delete()){
+//             System.out.println("Deleted the fiel: "+ file.getName());
+//         }else{
+//             System.out.println("Failed to delete the file");
+//         }
+//     }
+// }
