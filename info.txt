@@ -1,3 +1,0 @@
-Name:Uday
-Account No.:1000
-Balance:0.0
