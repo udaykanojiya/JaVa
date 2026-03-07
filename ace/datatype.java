@@ -7,6 +7,13 @@ public class datatype {
         boolean isStudent = true; // Boolean data type
         char grade = 'A'; // Character data type
         
+        System.out.println("Age: " + age);
+        System.out.println("Height: " + height);    
+        System.out.println("Is Student: " + isStudent);
+        System.out.println("Grade: " + grade);
+
+
+
        
     }
 }
