@@ -9,6 +9,8 @@ public class greet{
         System.out.println("Good Morning, "+a);
         sc.close();
 
+        
+
 
     }
 }
