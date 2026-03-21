@@ -9,7 +9,16 @@ public class chap3{
         String c = "Uday is a good boy";
         String d = c.replace(" ", "_");
         System.out.println(c+ " "+ d);
-        c = c.replace(" ", "%");
+        // c = c.replace(" ", "%");
         System.out.println(c);
+
+        if(c.contains(" ")){
+            System.out.println("contain single spaces");
+        }else{
+            System.out.println("no");
+        }
+
+        String e = "Dear Uday,\nWe are good to see you \"here\".\nThank You.";
+        System.out.println(e);
     }
 }
