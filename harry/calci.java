@@ -9,6 +9,10 @@ public class calci{
         int b = sc.nextInt();
         System.out.println("Choose operator: \n+ - * /");
         String c = sc.nextLine();
+         switch(c){
+            case + :
+                
+         }
 
     }
 }
