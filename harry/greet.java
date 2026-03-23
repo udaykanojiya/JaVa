@@ -1,8 +1,8 @@
-package ace;
+package harry;
 
 import java.util.Scanner;
 
-public class calci {
+public class greet {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
