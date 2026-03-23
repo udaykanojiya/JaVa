@@ -10,7 +10,9 @@ public class calci{
         System.out.println("Choose operator: \n+ - * /");
         String c = sc.nextLine();
          switch(c){
-            case + :
+            case :
+                                
+                break;
                 
          }
 
