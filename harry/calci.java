@@ -9,8 +9,7 @@ public class calci{
         int b = sc.nextInt();
         System.out.println("Choose operator: \n+ - * /");
         String c = sc.next();
-        
-         sc.close();
+        sc.close();
 
     }
 }
