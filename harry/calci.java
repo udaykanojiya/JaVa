@@ -107,5 +107,16 @@ public class calci {
             System.err.println("An unexpected error occurred: " + e.getMessage());
         } finally {
             scanner.close();
-    
+            System.out.println("Exiting...");
+        }
+    }
+
+    private static double readDouble(Scanner scanner) {
+        while (!scanner.hasNextDouble()) {
+            System.out.print("Invalid input! Please enter a numeric value: ");
+            scanner.next();
+        }
+        return scanner.nextDouble();
+    }
+}
 
