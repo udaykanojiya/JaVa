@@ -21,18 +21,24 @@ public class chap6 {
         //     }
         // System.out.println("Sum of marks: " + sum);
 
-        int x = 3;
-        for (float element : marks) {
+        // int x = 3;
+        // for (float element : marks) {
 
-            if(element == x) {
-                System.out.println(("Element found: " + element));
-                break;
+        //     if(element == x) {
+        //         System.out.println(("Element found: " + element));
+        //         break;
 
-            }
+        //     }
 
+        // }
+
+        float sum = 0;
+        for(int i=0; i < marks.length; i++){
+            sum = sum + marks[i];
+            
         }
 
-
+            System.out.println("Average of marks: " + (sum/50)*10);
         sc.close();
     }
 }
