@@ -14,9 +14,12 @@ public class chap6 {
         // }
 
         float[] marks = {1,2,3,4,5};
+        float sum = 0;
             for (float element : marks) {
-                System.out.println(element);
+                sum = sum + element;
+                // System.out.println(element);
             }
+        System.out.println("Sum of marks: " + sum);
 
         sc.close();
     }
