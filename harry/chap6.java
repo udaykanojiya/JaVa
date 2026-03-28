@@ -54,13 +54,21 @@ public class chap6 {
         
         int[] a = {1,2,3,4,5};
 
-        for(int i = 0; i < a.length/2; i++){
-            int temp = a[i];
-            a[i] = a[a.length - 1 - i];
-            a[a.length - 1 - i] = temp;}
+            // for(int i = 0; i < a.length/2; i++){
+            //     int temp = a[i];
+            //     a[i] = a[a.length - 1 - i];
+            //     a[a.length - 1 - i] = temp;}
 
-        for(int element : a){
-            System.out.print(element + " ");    }
+            // for(int element : a){
+            //     System.out.print(element + " ");    }
+
+            int max = 0;
+            for(int i=1;i<a.length;i++){
+                if(a[i]> max){
+                    max = a[i];
+                }
+            }
+            System.out.println("Maximum element: " + max);
 
           sc.close();
     }
