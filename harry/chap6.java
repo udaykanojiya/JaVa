@@ -80,8 +80,8 @@ public class chap6 {
                 // System.out.println(first(5));
 
             
-            // pattern(7);
-                System.out.println(nat(5));
+            pattern(7);
+                // System.out.println(nat(5));
 
           sc.close();
     }
@@ -92,16 +92,22 @@ public class chap6 {
     //     }
     // }
 
-    // 
+         static void pattern(int n){
+            for(int i=1;i<=n;i++){
+                for(int j=n-i;j>=0;j--){
+                    System.out.print("*" + " ");
+                }
+                System.out.println();
+            }
     
-    static int nat(int n){
-        if(n==1){
-            return 1;
-        }
-        else{
-            return n + nat(n-1);
-        }
-    }
+    // static int nat(int n){
+    //     if(n==1){
+    //         return 1;
+    //     }
+    //     else{
+    //         return n + nat(n-1);
+    //     }
+    // }
 
     // static int first(int x){
     //     if(x==0 || x==1){
@@ -111,4 +117,4 @@ public class chap6 {
     //         return x * first(x-1);
     //     }
     // }
-}
+}}
