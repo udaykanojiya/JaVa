@@ -62,28 +62,33 @@ public class chap6 {
             // for(int element : a){
             //     System.out.print(element + " ");    }
 
-            int max = a[0];
-            int min = a[0];
-            for(int i=1;i<a.length;i++){
-                if(a[i]> max){
-                    max = a[i];
-                }
-                if(a[i]< min){
-                    min = a[i];
-                }
-            }
-            System.out.println("Maximum element: " + max);
-            System.out.println("Minimum element: " + min);
+            // int max = a[0];
+            // int min = a[0];
+            // for(int i=1;i<a.length;i++){
+            //     if(a[i]> max){
+            //         max = a[i];
+            //     }
+            //     if(a[i]< min){
+            //         min = a[i];
+            //     }
+            // }
+            // System.out.println("Maximum element: " + max);
+            // System.out.println("Minimum element: " + min);
 
-            chap6 m = new chap6();
-            m.first(1,2,3,3);
+            // chap6 m = new chap6();
+            // m.first(1,2,3,3);
+                System.out.println(first(5));
+
 
           sc.close();
     }
 
-    void first(int... arr){
-        for(int element : arr){
-            System.out.print(element + " ");
+    static int first(int x){
+        if(x==0 || x==1){
+            return 1;
+        }
+        else{
+            return x * first(x-1);
         }
     }
 }
