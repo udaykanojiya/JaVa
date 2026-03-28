@@ -44,12 +44,12 @@ public class chap6 {
         a = new int[][]{{1,2,3},{4,5,6}};
         b = new int[][]{{7,8,9},{10,11,12}};
 
-        for( int[] x:a) {
-            for(int i:x) {
-                System.out.print(i + " ");
+       
+        for( int i=0;i<a.length;i++){
+            for(int j=0;j<a[i].length;j++){
+                System.out.print(a[i][j] + b[i][j] + " ");
             }
             System.out.println();
-
         }
         
 
