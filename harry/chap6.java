@@ -77,18 +77,34 @@ public class chap6 {
 
             // chap6 m = new chap6();
             // m.first(1,2,3,3);
-                System.out.println(first(5));
+                // System.out.println(first(5));
 
+            
+            pattern(7);
 
           sc.close();
     }
 
-    static int first(int x){
-        if(x==0 || x==1){
-            return 1;
-        }
-        else{
-            return x * first(x-1);
+    // static void table(int n){
+    //     for(int i=0;i<=10;i++){
+    //         System.out.println(n + " x " + i + " = " + n*i);
+    //     }
+    // }
+
+    static void pattern(int n){
+        for(int i=1; i<=n; i++){
+            for(int j=1; j<=i;j++){
+                System.out.print("*");
+            }System.out.println();
         }
     }
+
+    // static int first(int x){
+    //     if(x==0 || x==1){
+    //         return 1;
+    //     }
+    //     else{
+    //         return x * first(x-1);
+    //     }
+    // }
 }
