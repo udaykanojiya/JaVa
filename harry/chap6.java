@@ -13,7 +13,7 @@ public class chap6 {
         //     System.out.println();
         // }
 
-        float[] marks = {1,2,3,4,5};
+        // float[] marks = {1,2,3,4,5};
         // float sum = 0;
         //     for (float element : marks) {
         //         sum = sum + element;
@@ -52,7 +52,7 @@ public class chap6 {
         //     System.out.println();
         // }
         
-        int[] a = {1,2,3,4,5};
+        // int[] a = {1,2,3,4,5};
 
             // for(int i = 0; i < a.length/2; i++){
             //     int temp = a[i];
@@ -80,10 +80,11 @@ public class chap6 {
                 // System.out.println(first(5));
 
             
-            pattern(7);
+            // pattern(7);
                 // System.out.println(nat(5));
 
           sc.close();
+          System.out.println(fib(5));
     }
 
     // static void table(int n){
@@ -92,13 +93,13 @@ public class chap6 {
     //     }
     // }
 
-         static void pattern(int n){
-            for(int i=1;i<=n;i++){
-                for(int j=n-i;j>=0;j--){
-                    System.out.print("*" + " ");
-                }
-                System.out.println();
-            }
+        //  static void pattern(int n){
+        //     for(int i=1;i<=n;i++){
+        //         for(int j=n-i;j>=0;j--){
+        //             System.out.print("*" + " ");
+        //         }
+        //         System.out.println();
+        //     }
     
     // static int nat(int n){
     //     if(n==1){
@@ -117,4 +118,16 @@ public class chap6 {
     //         return x * first(x-1);
     //     }
     // }
-}}
+
+    static int fib(int n){
+        if(n==0){
+            return 0;
+        }
+        else if(n==1){
+            return 1;
+        }
+        else{
+            return fib(n-1) + fib(n-2);
+        }
+    }
+}
