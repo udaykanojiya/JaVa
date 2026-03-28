@@ -40,18 +40,27 @@ public class chap6 {
 
         //     System.out.println("Average of marks: " + (sum/50)*10);
 
-        int[][]   a,b;
-        a = new int[][]{{1,2,3},{4,5,6}};
-        b = new int[][]{{7,8,9},{10,11,12}};
+        // int[][]   a,b;
+        // a = new int[][]{{1,2,3},{4,5,6}};
+        // b = new int[][]{{7,8,9},{10,11,12}};
 
        
-        for( int i=0;i<a.length;i++){
-            for(int j=0;j<a[i].length;j++){
-                System.out.print(a[i][j] + b[i][j] + " ");
-            }
-            System.out.println();
-        }
+        // for( int i=0;i<a.length;i++){
+        //     for(int j=0;j<a[i].length;j++){
+        //         System.out.print(a[i][j] + b[i][j] + " ");
+        //     }
+        //     System.out.println();
+        // }
         
+        int[] a = {1,2,3,4,5};
+
+        for(int i = 0; i < a.length/2; i++){
+            int temp = a[i];
+            a[i] = a[a.length - 1 - i];
+            a[a.length - 1 - i] = temp;}
+
+        for(int element : a){
+            System.out.print(element + " ");    }
 
           sc.close();
     }
