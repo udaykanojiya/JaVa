@@ -73,6 +73,7 @@ public class chap6 {
                 }
             }
             System.out.println("Maximum element: " + max);
+            System.out.println("Minimum element: " + min);
 
           sc.close();
     }
