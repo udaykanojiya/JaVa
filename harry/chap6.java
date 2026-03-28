@@ -74,7 +74,14 @@ public class chap6 {
             }
             System.out.println("Maximum element: " + max);
             System.out.println("Minimum element: " + min);
+            first(1,2,3,3);
 
           sc.close();
+    }
+
+    static void first(int... arr){
+        for(int element : arr){
+            System.out.print(element + " ");
+        }
     }
 }
