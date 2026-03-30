@@ -87,19 +87,19 @@ public class chap6 {
           System.out.println(fib(5));
     }
 
-    // static void table(int n){
-    //     for(int i=0;i<=10;i++){
-    //         System.out.println(n + " x " + i + " = " + n*i);
-    //     }
-    // }
+    static void table(int n){
+        for(int i=0;i<=10;i++){
+            System.out.println(n + " x " + i + " = " + n*i);
+        }
+    }
 
-        //  static void pattern(int n){
-        //     for(int i=1;i<=n;i++){
-        //         for(int j=n-i;j>=0;j--){
-        //             System.out.print("*" + " ");
-        //         }
-        //         System.out.println();
-        //     }
+         static void pattern(int n){
+            for(int i=1;i<=n;i++){
+                for(int j=n-i;j>=0;j--){
+                    System.out.print("*" + " ");
+                }
+                System.out.println();
+            }
     
     // static int nat(int n){
     //     if(n==1){
