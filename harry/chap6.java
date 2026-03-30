@@ -101,23 +101,23 @@ public class chap6 {
                 System.out.println();
             }
     
-    // static int nat(int n){
-    //     if(n==1){
-    //         return 1;
-    //     }
-    //     else{
-    //         return n + nat(n-1);
-    //     }
-    // }
+    static int nat(int n){
+        if(n==1){
+            return 1;
+        }
+        else{
+            return n + nat(n-1);
+        }
+    }
 
-    // static int first(int x){
-    //     if(x==0 || x==1){
-    //         return 1;
-    //     }
-    //     else{
-    //         return x * first(x-1);
-    //     }
-    // }
+    static int first(int x){
+        if(x==0 || x==1){
+            return 1;
+        }
+        else{
+            return x * first(x-1);
+        }
+    }
 
     static int fib(int n){
         if(n==0){
