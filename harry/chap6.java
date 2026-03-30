@@ -101,14 +101,14 @@ public class chap6 {
                 System.out.println();
             }
     
-    static int nat(int n){
-        if(n==1){
-            return 1;
-        }
-        else{
-            return n + nat(n-1);
-        }
-    }
+    // static int nat(int n){
+    //     if(n==1){
+    //         return 1;
+    //     }
+    //     else{
+    //         return n + nat(n-1);
+    //     }
+    // }
 
     static int first(int x){
         if(x==0 || x==1){
@@ -119,15 +119,15 @@ public class chap6 {
         }
     }
 
-    static int fib(int n){
-        if(n==0){
-            return 0;
-        }
-        else if(n==1){
-            return 1;
-        }
-        else{
-            return fib(n-1) + fib(n-2);
-        }
-    }
+    // static int fib(int n){
+    //     if(n==0){
+    //         return 0;
+    //     }
+    //     else if(n==1){
+    //         return 1;
+    //     }
+    //     else{
+    //         return fib(n-1) + fib(n-2);
+    //     }
+    // }
 }
