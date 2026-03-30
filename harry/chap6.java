@@ -62,18 +62,18 @@ public class chap6 {
             // for(int element : a){
             //     System.out.print(element + " ");    }
 
-            int max = a[0];
-            int min = a[0];
-            for(int i=1;i<a.length;i++){
-                if(a[i]> max){
-                    max = a[i];
-                }
-                if(a[i]< min){
-                    min = a[i];
-                }
-            }
-            System.out.println("Maximum element: " + max);
-            System.out.println("Minimum element: " + min);
+            // int max = a[0];
+            // int min = a[0];
+            // for(int i=1;i<a.length;i++){
+            //     if(a[i]> max){
+            //         max = a[i];
+            //     }
+            //     if(a[i]< min){
+            //         min = a[i];
+            //     }
+            // }
+            // System.out.println("Maximum element: " + max);
+            // System.out.println("Minimum element: " + min);
 
             // chap6 m = new chap6();
             // m.first(1,2,3,3);
@@ -87,19 +87,19 @@ public class chap6 {
           System.out.println(fib(5));
     }
 
-    static void table(int n){
-        for(int i=0;i<=10;i++){
-            System.out.println(n + " x " + i + " = " + n*i);
-        }
-    }
+    // static void table(int n){
+    //     for(int i=0;i<=10;i++){
+    //         System.out.println(n + " x " + i + " = " + n*i);
+    //     }
+    // }
 
-         static void pattern(int n){
-            for(int i=1;i<=n;i++){
-                for(int j=n-i;j>=0;j--){
-                    System.out.print("*" + " ");
-                }
-                System.out.println();
-            }
+    //      static void pattern(int n){
+    //         for(int i=1;i<=n;i++){
+    //             for(int j=n-i;j>=0;j--){
+    //                 System.out.print("*" + " ");
+    //             }
+    //             System.out.println();
+    //         }
     
     // static int nat(int n){
     //     if(n==1){
