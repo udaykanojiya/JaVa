@@ -84,7 +84,7 @@ public class chap6 {
                 // System.out.println(nat(5));
 
           sc.close();
-          System.out.println(fib(5));
+        //   System.out.println(fib(5));
     }
 
     // static void table(int n){
