@@ -75,9 +75,9 @@ public class chap6 {
             System.out.println("Maximum element: " + max);
             System.out.println("Minimum element: " + min);
 
-            // chap6 m = new chap6();
-            // m.first(1,2,3,3);
-            //     System.out.println(first(5));
+            chap6 m = new chap6();
+            m.first(1,2,3,3);
+                System.out.println(first(5));
 
             
             // pattern(7);
