@@ -11,7 +11,7 @@ public class chap6 {
         //         System.out.print("* ");
         //     }
         //     System.out.println();
-        // // }
+        // }
 
         // float[] marks = {1,2,3,4,5};
         // float sum = 0;
