@@ -16,7 +16,7 @@ public class chap5 {
             sum=sum+2*i;
             i++;
         }
-        System.out.println(sum);
+        // System.out.println(sum);
 
         
         }
