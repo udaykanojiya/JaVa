@@ -9,14 +9,14 @@ public class chap5 {
         //     }
         //     System.out.println("");
 
-        // int sum=0;
-        // int i=1;
-        // int n=3;
-        // while(i<=n){
-        //     sum=sum+2*i;
-        //     i++;
-        // }
-        // System.out.println(sum);
+        int sum=0;
+        int i=1;
+        int n=3;
+        while(i<=n){
+            sum=sum+2*i;
+            i++;
+        }
+        System.out.println(sum);
 
         
         }
