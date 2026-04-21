@@ -1,5 +1,5 @@
 package harry;
-import java.util.Scanner;
+import java.util.* ;
 
 public class chap2 {
     public static void main(String[] args){
