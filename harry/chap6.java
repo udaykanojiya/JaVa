@@ -5,13 +5,13 @@ public class chap6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // float[] marks = {1,2,3,4,5};
-        // float sum = 0;
-        //     for (float element : marks) {
-        //         sum = sum + element;
-        //         // System.out.println(element);
-        //     }
-        // System.out.println("Sum of marks: " + sum);
+        float[] marks = {1,2,3,4,5};
+        float sum = 0;
+            for (float element : marks) {
+                sum = sum + element;
+                // System.out.println(element);
+            }
+        System.out.println("Sum of marks: " + sum);
 
         int x = 3;
         for (float element : marks) {
