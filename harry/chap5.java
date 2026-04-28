@@ -9,7 +9,7 @@ public class chap5 {
             }
             System.out.println("");
 
-        // int sum=0;
+        int sum=0;
         // int i=1;
         // int n=3;
         while(i<=n){
