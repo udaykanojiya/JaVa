@@ -3,11 +3,11 @@ package harry;
 public class class8 {
 public static void main(String[] args){
 
-    // Employee uday = new Employee("Uday", 50000);
-    // uday.getName();
-    // uday.getSalary();   
-    // uday.setName("Udayan");
-    // uday.getName();
+    Employee uday = new Employee("Uday", 50000);
+    uday.getName();
+    uday.getSalary();   
+    uday.setName("Udayan");
+    uday.getName();
 
     CellPhone oneplus = new CellPhone();
     oneplus.ringing();
