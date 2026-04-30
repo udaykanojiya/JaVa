@@ -9,10 +9,10 @@ public static void main(String[] args){
     // uday.setName("Udayan");
     // uday.getName();
 
-    // CellPhone oneplus = new CellPhone();
-    // oneplus.ringing();
-    // oneplus.vibrating();
-    // oneplus.callFriend();
+    CellPhone oneplus = new CellPhone();
+    oneplus.ringing();
+    oneplus.vibrating();
+    oneplus.callFriend();
     
   
 
