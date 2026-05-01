@@ -18,7 +18,7 @@ public class chap2 {
         System.out.println("User entered a smaller no.");
     }
 
-    
+}
 
     }
 
