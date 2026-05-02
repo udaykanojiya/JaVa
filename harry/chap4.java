@@ -1,9 +1,8 @@
 package harry;
-import java.util.*;
 
 public class chap4 {
     public static void main(String[] args) {
-        // float a;
+        float a = 3.0f;
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter you Annual Imcome (in Lakhs): ");
         // a = sc.nextFloat();
