@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class prac {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        // System.out.print("Enter three numbers: ");
-        // int a = sc.nextInt();
-        // int b = sc.nextInt();
-        // int c = sc.nextInt();
-        // int d = a + b +c;
-        // System.out.println("The sum of a and b is: " + d);
+        System.out.print("Enter three numbers: ");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int d = a + b +c;
+        System.out.println("The sum of a and b is: " + d);
 
         //Question 2
         // System.out.print("Enter your name: ");
