@@ -24,17 +24,17 @@ public class prac {
         // System.out.println("CGPA: " + total/30);
 
         //Question 3 type of input
-        // System.out.print("Enter a number : ");
-        // int a = 12 / 5 * 5/2;
-        // System.out.println(a);
-        // if(sc.hasNextInt())
+        System.out.print("Enter a number : ");
+        int a = 12 / 5 * 5/2;
+        System.out.println(a);
+        if(sc.hasNextInt())
 
 
 
-        //     System.out.println("You entered an integer: " + num);
-        // } else {
-        //     System.out.println("You did not enter an integer.");
+            System.out.println("You entered an integer: " + num);
+        } else {
+            System.out.println("You did not enter an integer.");}
         
         
     }
-}
+
