@@ -35,9 +35,9 @@ public class prac {
 
 
 
-            // System.out.println("You entered an integer: " + num);
-        // } else {
-            // System.out.println("You did not enter an integer.");}
+            System.out.println("You entered an integer: " + num);
+        } else {
+            System.out.println("You did not enter an integer.");}
         
         
     }
