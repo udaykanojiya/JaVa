@@ -14,7 +14,11 @@ public static void main(String[] args){
     oneplus.vibrating();
     oneplus.callFriend();
     
-  
+    CellPhone idea = new CellPhone();
+    idea.ringing();
+    idea.vibrating();
+    idea.callFriend();
+
 
 }
 }
