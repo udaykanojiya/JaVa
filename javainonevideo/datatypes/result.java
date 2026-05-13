@@ -8,7 +8,7 @@ public class result{
       // System.out.print("Enter your marks: ");
       // String marks = sc.nextLine().toUpperCase();
       // System.out.println("Your marks are: " + marks);
-      // sc.close();
+      sc.close();
     
 
     }
