@@ -9,8 +9,9 @@ public class prac {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-        int d = a + b +c;
-        System.out.println("The sum of a and b is: " );
+        // int d = a + b +c;
+        System.out.println("The sum of a and b is: " + (a + b));
+        System.out.println("The sum of all three numbers is: " + (a + b + c));
 
         // Question 2
         System.out.print("Enter your name: ");
