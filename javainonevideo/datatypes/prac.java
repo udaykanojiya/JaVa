@@ -10,7 +10,7 @@ public class prac {
         // int b = sc.nextInt();
         // int c = sc.nextInt();
         // int d = a + b +c;
-        System.out.println("The sum of a and b is: " + d);
+        System.out.println("The sum of a and b is: " );
 
         // Question 2
         System.out.print("Enter your name: ");
@@ -39,6 +39,6 @@ public class prac {
         // } else {
         //     System.out.println("You did not enter an integer.");}
         
-        
+}
     }
 
