@@ -1,2 +1,2 @@
 # Java Practicing and Recap
-daily
+daily practice and improve yourself.
