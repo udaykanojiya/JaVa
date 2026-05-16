@@ -11,7 +11,7 @@ public class chap6 {
                 // sum = sum + element;
             //     System.out.println(element);
             // }
-        System.out.println("Sum of marks: " + sum);
+        // System.out.println("Sum of marks: " + sum);
 
         int x = 3;
         for (float element : marks) {
