@@ -9,8 +9,8 @@ public class chap6 {
         // float sum = 0;
             // for (float element : marks) {
                 // sum = sum + element;
-                System.out.println(element);
-            }
+            //     System.out.println(element);
+            // }
         System.out.println("Sum of marks: " + sum);
 
         int x = 3;
