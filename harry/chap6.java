@@ -13,7 +13,7 @@ public class chap6 {
             }
         System.out.println("Sum of marks: " + sum);
 
-        int x = 3;
+        // int x = 3;
         for (float element : marks) {
 
             if(element == x) {
