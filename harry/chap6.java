@@ -25,12 +25,12 @@ public class chap6 {
         }
 
         // float sum = 0;
-        for(int i=0; i < marks.length; i++){
-            sum = sum + marks[i];
+        // for(int i=0; i < marks.length; i++){
+        //     sum = sum + marks[i];
             
-        }
+        // }
 
-            System.out.println("Average of marks: " + (sum/50)*10);
+        //     System.out.println("Average of marks: " + (sum/50)*10);
 
         // int[][]   a,b;
         // a = new int[][]{{1,2,3},{4,5,6}};
