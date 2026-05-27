@@ -51,8 +51,8 @@ public class chap6 {
         //         a[i] = a[a.length - 1 - i];
         //         a[a.length - 1 - i] = temp;}
 
-            // for(int element : a){
-            //     System.out.print(element + " ");    }
+            for(int element : a){
+                System.out.print(element + " ");    }
 
             // int max = a[0];
             // int min = a[0];
