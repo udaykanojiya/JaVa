@@ -15,8 +15,8 @@ public class chap5 {
         // while(i<=n){
         //     sum=sum+2*i;
         //     i++;
-        }
-        System.out.println(sum);
+        // }
+        // System.out.println(sum);
 
         
         
