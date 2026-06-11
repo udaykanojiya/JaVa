@@ -8,9 +8,9 @@ public class Main{
         short a = 3;
         System.out.println("Range = " + Short.MIN_VALUE);
         String text = "Uday is a Good.";
-        // System.out.println(text.contains("Uday"));
-        // float c = 10/3.0f                                                           ;
-        // System.out.println(c);
+        System.out.println(text.contains("Uday"));
+        float c = 10/3.0f                                                           ;
+        System.out.println(c);
         
     }
 }
