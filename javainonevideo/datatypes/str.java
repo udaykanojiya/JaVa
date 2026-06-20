@@ -15,9 +15,9 @@ public class str {
         System.out.println(name.charAt(5));
         System.out.println(name.indexOf("in"));
         System.out.println(name.lastIndexOf("in"));
-        System.out.println(name.replace("in", "on"));
-        System.out.println(name.substring(0, 4));
-        name = name.toUpperCase();
-        System.out.println(name);
+        // System.out.println(name.replace("in", "on"));
+        // System.out.println(name.substring(0, 4));
+        // name = name.toUpperCase();
+        // System.out.println(name);
     }
 }
