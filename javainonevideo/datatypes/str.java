@@ -5,9 +5,9 @@ public class str {
         // String name = "java in one in video in";
         // System.out.println(name);
         // System.out.println(name.length());
-        // System.out.println(name.toUpperCase());
-        // System.out.println(name.toLowerCase());
-        // System.out.println(name.contains("in"));
+        System.out.println(name.toUpperCase());
+        System.out.println(name.toLowerCase());
+        System.out.println(name.contains("in"));
         // System.out.println(name.startsWith("java"));
         // System.out.println(name.endsWith("in"));
         // System.out.println(name.equals("java in one in video in"));
