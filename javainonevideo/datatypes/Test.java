@@ -2,9 +2,9 @@ package javainonevideo.datatypes;
 
 public class Test {
    public static void main(String[] args) {
-        int a =3;
-        float f = 3.14f;
-        double g = 3.141592653589793;
+      //   int a =3;
+      //   float f = 3.14f;
+      //   double g = 3.141592653589793;
       //   short b = 4;
       //   long c = 89898989898l;
       //   byte d = 55;
