@@ -22,7 +22,7 @@ public class prac {
         // int m3 = sc.nextInt();
         // float total = m1 + m2 + m3;
         // System.out.println("Name: " + name);
-        System.out.println("CGPA: " + total/30);
+        // System.out.println("CGPA: " + total/30);
 
         //Question 3 type of input
         // System.out.print("Enter a number : ");
