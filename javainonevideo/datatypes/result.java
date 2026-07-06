@@ -1,4 +1,5 @@
 package javainonevideo.datatypes;
+import java.util.Scanner;
 
 public class result{
     public static void main(String[] args) {
