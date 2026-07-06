@@ -14,9 +14,9 @@ public class prac {
         System.out.println("The sum of all three numbers is: " + (a + b + c));
 
         // Question 2
-        // System.out.print("Enter your name: ");
-        // String name = sc.nextLine();
-        // System.out.println("Enter makrs in three subjects: ");
+        System.out.print("Enter your name: ");
+        String name = sc.nextLine();
+        System.out.println("Enter makrs in three subjects: ");
         // int m1 = sc.nextInt();
         // int m2 = sc.nextInt();
         // int m3 = sc.nextInt();
