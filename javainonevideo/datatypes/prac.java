@@ -17,12 +17,12 @@ public class prac {
         // System.out.print("Enter your name: ");
         // String name = sc.nextLine();
         // System.out.println("Enter makrs in three subjects: ");
-        // int m1 = sc.nextInt();
-        // int m2 = sc.nextInt();
-        // int m3 = sc.nextInt();
-        // float total = m1 + m2 + m3;
-        // System.out.println("Name: " + name);
-        // System.out.println("CGPA: " + total/30);
+        int m1 = sc.nextInt();
+        int m2 = sc.nextInt();
+        int m3 = sc.nextInt();
+        float total = m1 + m2 + m3;
+        System.out.println("Name: " + name);
+        System.out.println("CGPA: " + total/30);
 
         //Question 3 type of input
         // System.out.print("Enter a number : ");
