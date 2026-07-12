@@ -26,8 +26,8 @@ public class prac {
 
         //Question 3 type of input
         // System.out.print("Enter a number : ");
-        // int a = 12 / 5 * 5/2;
-        // System.out.println(a);
+        int a = 12 / 5 * 5/2;
+        System.out.println(a);
         // if(sc.hasNextInt())
         // if(sc.hasNextInt()){
         //     System.out.println("You entered an integer: " +sc.nextInt());
