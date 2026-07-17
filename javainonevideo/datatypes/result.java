@@ -6,7 +6,7 @@ public class result{
       Scanner sc = new Scanner(System.in);
       System.out.print("Enter your marks: ");
       String marks = sc.nextLine().toUpperCase();
-      // System.out.println("Your marks are: " + marks);
-      // sc.close();
+      System.out.println("Your marks are: " + marks);
+      sc.close();
     }
 }
