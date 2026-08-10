@@ -32,7 +32,7 @@ public class prac {
         // if(sc.hasNextInt()){
         //     System.out.println("You entered an integer: " +sc.nextInt());
             
-        }
+        // }
 
 
 
