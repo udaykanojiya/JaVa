@@ -2,9 +2,9 @@ class Kadence {
     public int maxSubArray(int[] nums) {
         int maxi = Integer.MIN_VALUE;
         
-        int len = nums.length;
+        // int len = nums.length;
         // System.out.println(len);
-        int sum =0;
+        // int sum =0;
         // for(int i=0 ; i< len;i++){
             
             if(sum<0){
