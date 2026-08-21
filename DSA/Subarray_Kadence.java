@@ -12,11 +12,11 @@ class Kadence {
             // }
             // sum = sum + nums[i];
             // maxi = Math.max(maxi,sum);
-            for(int j=i ;j<nums.length; j++){
-                sum = sum + nums[j];
-                if(sum>maxi){
-                    maxi = sum;
-                }
+            // for(int j=i ;j<nums.length; j++){
+            //     sum = sum + nums[j];
+            //     if(sum>maxi){
+            //         maxi = sum;
+            //     }
 
 
             
