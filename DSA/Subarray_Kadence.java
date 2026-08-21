@@ -5,7 +5,7 @@ class Kadence {
         int len = nums.length;
         // System.out.println(len);
         int sum =0;
-        for(int i=0 ; i< len;i++){
+        // for(int i=0 ; i< len;i++){
             
             if(sum<0){
                 sum = 0;
