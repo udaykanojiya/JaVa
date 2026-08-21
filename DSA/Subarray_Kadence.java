@@ -7,7 +7,7 @@ class Kadence {
         int sum =0;
         for(int i=0 ; i< len;i++){
             
-            // if(sum<0){
+            if(sum<0){
             //     sum = 0;
             // }
             // sum = sum + nums[i];
